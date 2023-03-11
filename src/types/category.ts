@@ -1,6 +1,5 @@
-import { Guid } from 'typescript-guid';
-
 export interface Category {
-  id: Guid;
+  id: number;
   title: string;
+  imageUrl: string;
 }
